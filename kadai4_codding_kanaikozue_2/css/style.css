@@ -138,6 +138,7 @@ body{
     margin: 0 auto;
     align-items: center;
     margin-top: 100px;
+    justify-content: space-between;
 }
 
 .about{
@@ -181,11 +182,11 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 50px;
+    justify-content: space-between;
 }
 
 .menuimg li{
     width: 30%;
-    justify-content: space-between;
 }
 
 .photo img{
@@ -242,14 +243,16 @@ body{
     border: 3px solid #4F260B;
     padding: 30px 150px;
     margin-top: 50px;
-    font-size: 23px;
+}
+
+.event li a{
     line-height: 1.95;
+      font-size: 23px;
 }
 
 .eventwrap li span{
     text-decoration: underline 1px #4F260B ;
     margin-left: 55px;
-    
 }
 
 /* アクセス */
@@ -282,7 +285,7 @@ iframe{
 footer{
     background-color: #fff;
     margin: 0 auto;
-    padding: 0;
+ 
 }
 
 .footerlogo img{
@@ -293,16 +296,19 @@ footer{
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    padding-top: 85px;
+    padding-top: 90px;
     align-items: flex-start;
 
 }
 
 .footerwrap ul{
-    font-size: 20px;
-    line-height: 1.95;
     align-items: flex-start;
     padding-left: 70px;
+}
+
+.footerwrap ul li{
+    font-size: 20px;
+    line-height: 1.95;
 }
 
 .copyright{
